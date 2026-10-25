@@ -1,0 +1,15 @@
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "noEmit": true
+  },
+  "include": ["01-basics/**/*.ts", "02-functions/**/*.ts", "03-objects-interfaces/**/*.ts", "04-classes/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

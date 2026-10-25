@@ -1,0 +1,21 @@
+let userName: string = "Deepankar";
+let age: number = 25;
+
+console.log(userName);
+console.log(age);
+
+let employee: {
+    id: number;
+    name: string;
+    salary: number;
+} = {
+    id: 2370549,
+    name: "Deepankar",
+    salary: 10000
+};
+
+console.log(employee.name);
+console.log(employee.id);
+console.log(employee.salary);
+
+
